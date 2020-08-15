@@ -1,0 +1,98 @@
+	{% extends 'base.html'%}
+{% block title %}Gallery{% endblock %}
+{% load static %}
+{% block content %}
+
+	<div id="portfolio" class="section lb">
+		<div class="container">
+			<div class="section-title text-center">
+                <h3>Our Captures</h3>
+                <p>Some of Our best Services </p>
+            </div><!-- end title -->
+		<div class="gallery-menu row">
+				<div class="col-md-12">
+					<div class="button-group filter-button-group text-center">
+						<button class="active" data-filter="*">Our Service</button>
+		
+					</div>
+				</div>
+			</div>
+			
+			<div class="gallery-list row">
+				<div class="col-md-4 col-sm-6 gallery-grid gal_a gal_b">
+					<div class="gallery-single fix">
+						<img src="{% static 'Home/images/Bouncers.jpeg' %}" class="img-fluid" alt="Image">
+						<div class="img-overlay">
+							<a href="{% static 'Home/images/Bouncers.jpeg' %}" data-rel="prettyPhoto[gal]" class="hoverbutton global-radius"><i class="fa fa-picture-o"></i></a>
+						</div>
+					</div>
+				</div>
+				
+				<div class="col-md-4 col-sm-6 gallery-grid gal_c gal_b">
+					<div class="gallery-single fix">
+						<img src="{% static 'Home/images/SG.jpeg' %}" class="img-fluid" alt="Image">
+						<div class="img-overlay">
+							<a href="{% static 'Home/images/SG.jpeg' %}" data-rel="prettyPhoto[gal]" class="hoverbutton global-radius"><i class="fa fa-picture-o"></i></a>
+						</div>
+					</div>
+				</div>
+				
+				<div class="col-md-4 col-sm-6 gallery-grid gal_a gal_c">
+					<div class="gallery-single fix">
+						<img src="{% static 'Home/images/SG1.jpeg' %}" class="img-fluid" alt="Image">
+						<div class="img-overlay">
+							<a href="{% static 'Home/images/SG1.jpeg' %}" data-rel="prettyPhoto[gal]" class="hoverbutton global-radius"><i class="fa fa-picture-o"></i></a>
+						</div>
+					</div>
+				</div>
+				
+				<div class="col-md-4 col-sm-6 gallery-grid gal_b gal_a">
+					<div class="gallery-single fix">
+						<img src="{% static 'Home/images/Republic.jpeg' %}" class="img-fluid" alt="Image">
+						<div class="img-overlay">
+							<a href="{% static 'Home/images/Republic.jpeg' %}" data-rel="prettyPhoto[gal]" class="hoverbutton global-radius"><i class="fa fa-picture-o"></i></a>
+						</div>
+					</div>
+				</div>
+
+				<div class="col-md-4 col-sm-6 gallery-grid gal_b gal_a">
+					<div class="gallery-single fix">
+						<img src="{% static 'Home/images/ind.jpeg' %}" class="img-fluid" alt="Image">
+						<div class="img-overlay">
+							<a href="{% static 'Home/images/Republic.jpeg' %}" data-rel="prettyPhoto[gal]" class="hoverbutton global-radius"><i class="fa fa-picture-o"></i></a>
+						</div>
+					</div>
+				</div>
+
+				<div class="col-md-4 col-sm-6 gallery-grid gal_b gal_a">
+					<div class="gallery-single fix">
+						<img src="{% static 'Home/images/ind1.jpeg' %}" class="img-fluid" alt="Image">
+						<div class="img-overlay">
+							<a href="{% static 'Home/images/Republic.jpeg' %}" data-rel="prettyPhoto[gal]" class="hoverbutton global-radius"><i class="fa fa-picture-o"></i></a>
+						</div>
+					</div>
+				</div>
+				
+				<div class="col-md-4 col-sm-6 gallery-grid gal_a gal_c">
+					<div class="gallery-single fix">
+						<img src="{% static 'Home/images/rd.jpeg' %}" class="img-fluid" alt="Image">
+						<div class="img-overlay">
+							<a href="{% static 'Home/images/rd.jpeg' %}" data-rel="prettyPhoto[gal]" class="hoverbutton global-radius"><i class="fa fa-picture-o"></i></a>
+						</div>
+					</div>
+				</div>
+				
+				<div class="col-md-4 col-sm-6 gallery-grid gal_c gal_a">
+					<div class="gallery-single fix">
+						<img src="{% static 'Home/images/Event.jpeg' %}" class="img-fluid" alt="Image">
+						<div class="img-overlay">
+							<a href="{% static 'Home/images/Event.jpeg' %}" data-rel="prettyPhoto[gal]" class="hoverbutton global-radius"><i class="fa fa-picture-o"></i></a>
+						</div>
+					</div>
+				</div>
+			</div>
+			</div>
+		</div>
+	</div>
+
+	{% endblock %}
